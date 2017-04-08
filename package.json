@@ -1,0 +1,27 @@
+{
+  "name": "overjs",
+  "version": "0.0.1",
+  "description": "A modern, zero dependency, overlay and modal library.",
+  "main": "/dist/over.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knieber/overjs.git"
+  },
+  "keywords": [
+    "modern",
+    "modal",
+    "overlay",
+    "over",
+    "overjs",
+    "es6"
+  ],
+  "author": "kyle.nieber@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knieber/overjs/issues"
+  },
+  "homepage": "https://github.com/knieber/overjs#readme"
+}
