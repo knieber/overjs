@@ -13,12 +13,12 @@ const config = {
     {
       dest: pkg.main,
       format: 'umd',
-      moduleName: 'Over'
+      moduleName: 'Over',
     }, {
       dest: pkg.module,
-      format: 'es'
-    }
-  ]
+      format: 'es',
+    },
+  ],
 };
 
 export default config;
