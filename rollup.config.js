@@ -1,21 +1,21 @@
 import babel from 'rollup-plugin-babel';
 import resolve from 'rollup-plugin-node-resolve';
 
-const info = require('./package.json');
+const pkg = require('./package.json');
 
 const config = {
   entry: 'src/over.js',
   plugins: [
     resolve(),
-    babel()
+    babel(),
   ],
   targets: [
     {
-      dest: info.main,
+      dest: pkg.main,
       format: 'umd',
       moduleName: 'Over'
     }, {
-      dest: info.module,
+      dest: pkg.module,
       format: 'es'
     }
   ]
